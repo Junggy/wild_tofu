@@ -1,0 +1,6 @@
+torch==1.8.1+cu102
+matplotlib==3.3.4
+kornia==0.5.1
+numpy==1.19.5
+torchvision==0.9.1+cu102
+opencv_python==4.5.1.48

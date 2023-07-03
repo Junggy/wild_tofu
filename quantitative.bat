@@ -1,0 +1,1 @@
+python quantitative.py -p False -b ../dataset full_fusion 10 full_fusion 20 full_fusion 30

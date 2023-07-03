@@ -1,0 +1,8 @@
+test/
+__pycache__/
+networks/__pycache__/
+.ipynb_checkpoints/
+train_setup.py
+experiment/
+results/
+test_dataset/
