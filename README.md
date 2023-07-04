@@ -49,3 +49,14 @@ For the test step, open test_setup.py and add setup key in the dictionary. For t
 for testing, use command
 python inference.py _key_of_setup_dict_
 (i.e. python inference.py full_fusion)
+
+---
+output:
+  md_document:
+    variant: markdown_github
+bibliography: wild_tofu.bib
+---
+
+[@jung2021]
+
+
