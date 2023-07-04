@@ -36,8 +36,10 @@ For the train setup, open train_setup.py and add setup key in the dictionary. Al
 - "stop_at" : stop training at nth step
 
 for training, use command
+```
 python training_loop_new.py _key_of_setup_dict_
 (i.e. python training_loop_new.py full_fusion)
+```
 
 ## Test
 For the test step, open test_setup.py and add setup key in the dictionary. For testing, only images from "./testset/i-ToF" and "./testset/RGB" folder will be used and prediction will be located in both "./testset/output/rgb" and "./testset/output/tof" as 8bit image. Depth range is 0-12m. To convert into actual depth, depth has to be diveded by 255 and multiplied by 12 (if depth is read as [0,255]) or just multiplied by 12 (if depth is read as [0,1])
@@ -47,9 +49,10 @@ For the test step, open test_setup.py and add setup key in the dictionary. For t
 - "checkpoint" : checkpoint in testsetup needs to be filename with full path (i.e. "checkpoint":"./results/full_fusion/checkpoints/00000049_th_iter.pth")
 
 for testing, use command
+```
 python inference.py _key_of_setup_dict_
 (i.e. python inference.py full_fusion)
-
+```
 ## Citation
 ```
 @InProceedings{jung2022wild,
