@@ -50,13 +50,16 @@ for testing, use command
 python inference.py _key_of_setup_dict_
 (i.e. python inference.py full_fusion)
 
----
-output:
-  md_document:
-    variant: markdown_github
-bibliography: wild_tofu.bib
----
-
-[@jung2021]
+## Citation
+```
+@InProceedings{jung2022wild,
+      title={Wild ToFu: Improving Range and Quality of Indirect Time-of-Flight Depth with RGB Fusion in Challenging Environments}, 
+      author={HyunJun Jung and Nikolas Brasch and Ales Leonardis and Nassir Navab and Benjamin Busam},
+      year={2022},
+      eprint={2112.03750},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
