@@ -35,7 +35,15 @@ For the train setup, open train_setup.py and add setup key in the dictionary. Al
 - "save_every" : save checkpoints every n step
 - "stop_at" : stop training at nth step
 
-for training, use command
+### File structure
+To train the network, download dataset from https://cromo-data.github.io/ and place
+```
+```
+
+
+
+### For training
+For training, use command
 ```
 python training_loop_new.py _key_of_setup_dict_
 (i.e. python training_loop_new.py full_fusion)
@@ -48,7 +56,8 @@ For the test step, open test_setup.py and add setup key in the dictionary. For t
 - "fusion" : follows same convention as in train_setup.py
 - "checkpoint" : checkpoint in testsetup needs to be filename with full path (i.e. "checkpoint":"./results/full_fusion/checkpoints/00000049_th_iter.pth")
 
-for testing, use command
+### For testing
+For testing, use command
 ```
 python inference.py _key_of_setup_dict_
 (i.e. python inference.py full_fusion)
