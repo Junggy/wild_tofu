@@ -36,8 +36,16 @@ For the train setup, open train_setup.py and add setup key in the dictionary. Al
 - "stop_at" : stop training at nth step
 
 ### File structure
-To train the network, download dataset from https://cromo-data.github.io/ and place
+To train the network, download dataset from https://cromo-data.github.io/ and place outside of the "wild_tofu" folder
 ```
+dataset
+    20201027-180941
+    20201027-181125
+    20201027-181503
+    20201027-181809
+wild_tofu
+    train_setup.py
+    ....
 ```
 
 
