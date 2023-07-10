@@ -70,6 +70,19 @@ For testing, use command
 python inference.py _key_of_setup_dict_
 (i.e. python inference.py full_fusion)
 ```
+
+if you perfer to use pretrained model, please place the pretrained weight 00000049_th_iter.pth from https://drive.google.com/file/d/18sigfG54jUwj-R5LyhhZrXAA_tjcC2rz/view?usp=sharing in the correct file
+```
+wild_tofu
+    train_setup.py
+    ....
+    results
+        full_fusion
+            checkpoints
+                00000049_th_iter.pth
+```
+and run the test script with full_fusion setup
+
 ## Citation
 ```
 @InProceedings{jung2022wild,
